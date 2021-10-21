@@ -8,3 +8,10 @@ sum = num1 + num2
   
 # printing values
 print("Sum of {0} and {1} is {2}" .format(num1, num2, sum))
+
+def add_(num1, num2):
+    output = num1 + num2
+
+    print(output)
+    
+add_(15,12)
